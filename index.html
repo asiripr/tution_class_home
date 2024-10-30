@@ -66,23 +66,23 @@
 </head>
 
 <body class="relative text-sm sm:text-base text-[#3929ff]">
-    <div class="absolute inset-0 bgGrid"></div>
-    <header>
+    <div class="absolute inset-0 bgGrid z-[-1] opacity-23"></div>
+    <header class="sticky top-0 max-w-[1000px] mx-auto w-full p-4 sm:p-8 flex items-center justify-between gap-4 sm:gap-8">
         <h1 class="">Vidunana Semina Series</h1>
-        <button>
+        <button class="px-6 py-3 lightShadow cursor-pointer rounded-full bg-white blueShadow font-medium">
             <p>Register Now</p>
         </button>
     </header>
-    <main id="app">
-        <section>
-            <h2>Empowering A/L Students in ICT</h2>
-            <p>The Vidunana Semina series is a free seminar series tailored for Sri Lankan A/L students. This seminar covers the complete A/L ICT syllabus and is conducted entirely free of charge by students of the Faculty of Computing at Sabaragamuwa University of Sri Lanka.</p>
-            <div>
-                <button>
-                    <p>Register Now</p>
+    <main id="app" class="min-h-screen flex flex-col">
+        <section class="flex flex-col max-w-[1000px] mx-auto w-full p-8 gap-8 md:gap-14 sm:py-14 md:py-20">
+            <h2 class="font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center">Empowering A/L Students in ICT</h2>
+            <p class="mx-auto max-w-[800px] w-full text-center text-base sm:text-lg md:text-lg ">The Vidunana Semina series is a free seminar series tailored for Sri Lankan A/L students. This seminar covers the complete A/L ICT syllabus and is conducted entirely free of charge by students of the Faculty of Computing at Sabaragamuwa University of Sri Lanka.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 sm:w-fit sm:mx-auto py-4">
+                <button class="px-6 lightShadow py-3 sm:px-10 sm:py-10 sm:px-4 cursor-pointer rounded-full bg-white blueShadow font-medium">
+                    <p class="text-base sm:text-lg md:text-xl">Register Now</p>
                 </button>
-                <button>
-                    <p>Contact Us</p>
+                <button class="px-6 py-3 lightShadow sm:px-10 sm:py-4 bg-[#3939ff] cursor-pointer rounded-full blueShadow font-medium">
+                  <p class="text-base sm:text-lg md:text-xl text-white">Contact Us</p>
                 </button>
             </div>
             <div>
@@ -105,7 +105,7 @@
         </section>
     </main>
     <footer>
-        <p>Made with 💛 by Sabaragamuwa University Computing Students</p>
+        <p>Made with 💛 by @asiripr</p>
     </footer>
 </body>
 
